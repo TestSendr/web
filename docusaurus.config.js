@@ -95,10 +95,10 @@ const config = {
               //   label: "Stack Overflow",
               //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
               // },
-              // {
-              //   label: "Discord",
-              //   href: "https://discordapp.com/invite/docusaurus",
-              // },
+              {
+                label: "Discord",
+                href: "https://discord.gg/kS7ss5KvuQ",
+              },
               {
                 label: "Twitter",
                 href: "https://twitter.com/testsendr",
