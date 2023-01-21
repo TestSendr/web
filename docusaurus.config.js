@@ -18,6 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "testsendr", // Usually your GitHub org/user name.
   projectName: "web", // Usually your repo name.
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,15 +37,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/testsendr/web/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/testsendr/web/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/testsendr/web/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/testsendr/web/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

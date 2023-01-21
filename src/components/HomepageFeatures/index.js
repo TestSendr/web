@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         TestSendr is a useful service if you need to check in your tests that
-        emails are correclty send with the right content. Ideal for your QA
+        emails are correctly sent with the right content. Ideal for your QA
         team.
       </>
     ),

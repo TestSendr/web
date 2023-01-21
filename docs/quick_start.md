@@ -4,44 +4,37 @@ sidebar_position: 1
 
 # Quick Start
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **TestSendr in less than 2 minutes**.
 
-## Getting Started
+## Send email
 
-Get started by **creating a new site**.
+Send an email to any address ending by **@testsendr.link** (for example `foo@testsendr.link`)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::note
 
-### What you'll need
+If you need to test that an application is correctly sending an email, you can provide such email (in a test account for example) and trigger the action that will send an email (maybe register?).
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::
 
-## Generate a new site
+## Call the API
 
-Generate a new Docusaurus site using the **classic template**.
+Then, using your favorite language or automation tool, send a `GET` to the following url: `https://api.testsendr.link/?mail=foo@testsendr.link`
 
-The classic template will automatically be added to your project after you run the command:
+You will receive a JSON object with the last emails sent to this specific address:
 
-```bash
-npm init docusaurus@latest my-website classic
+```
+[
+   {
+      "id":"5f9b9b0b-1b5a-4b1b-9b0b-1b5a4b1b9b0b",
+      "from":"
+
+
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+All emails are deleted after 30mn.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+:::note
 
-## Start your site
+When you call the API via a script, take note that email delivery can take a few seconds. We recommend to wait at least **10 seconds** before calling the API, via a `sleep` command for example.
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::
