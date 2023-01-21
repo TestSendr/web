@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://testsendr.link/blog</id>
+    <title>TestSendr Blog</title>
+    <updated>2023-01-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://testsendr.link/blog"/>
+    <subtitle>TestSendr Blog</subtitle>
+    <icon>https://testsendr.link/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Launch]]></title>
+        <id>first-launch</id>
+        <link href="https://testsendr.link/blog/first-launch"/>
+        <updated>2023-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are happy to launch the first version of TestSendr, the tool that will help your QA team to build efficient email 📬 testing scenarios! Don't forget to get a look at our Quick Start page to understand how to use the service.]]></summary>
+        <content type="html"><![CDATA[<p>We are happy to launch the first version of <strong>TestSendr</strong>, the tool that will help your <strong>QA team</strong> to build efficient <strong>email 📬 testing scenarios</strong>! Don't forget to get a look at our <a href="/docs/quick_start">Quick Start</a> page to understand how to use the service.</p>]]></content>
+        <author>
+            <name>Julien Bras</name>
+            <uri>https://github.com/julbrs</uri>
+        </author>
+        <category label="testsendr" term="testsendr"/>
+    </entry>
+</feed>

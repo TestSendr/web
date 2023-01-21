@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>TestSendr Blog</title>
+        <link>https://testsendr.link/blog</link>
+        <description>TestSendr Blog</description>
+        <lastBuildDate>Fri, 20 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[First Launch]]></title>
+            <link>https://testsendr.link/blog/first-launch</link>
+            <guid>first-launch</guid>
+            <pubDate>Fri, 20 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are happy to launch the first version of TestSendr, the tool that will help your QA team to build efficient email 📬 testing scenarios! Don't forget to get a look at our Quick Start page to understand how to use the service.]]></description>
+            <content:encoded><![CDATA[<p>We are happy to launch the first version of <strong>TestSendr</strong>, the tool that will help your <strong>QA team</strong> to build efficient <strong>email 📬 testing scenarios</strong>! Don't forget to get a look at our <a href="/docs/quick_start">Quick Start</a> page to understand how to use the service.</p>]]></content:encoded>
+            <category>testsendr</category>
+        </item>
+    </channel>
+</rss>
