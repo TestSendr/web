@@ -64,10 +64,11 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "quick_start",
+            docId: "quick-start",
             position: "left",
             label: "Docs",
           },
+          { to: "/pricing", label: "Pricing", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/testsendr/web",
@@ -83,8 +84,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Docs",
-                to: "/docs/quick_start",
+                label: "Quick Start",
+                to: "/docs/quick-start",
               },
             ],
           },
