@@ -15,8 +15,8 @@
         <summary type="html"><![CDATA[We are happy to launch the first version of TestSendr, the tool that will help your QA team to build efficient email 📬 testing scenarios! Don't forget to get a look at our Quick Start page to understand how to use the service.]]></summary>
         <content type="html"><![CDATA[<p>We are happy to launch the first version of <strong>TestSendr</strong>, the tool that will help your <strong>QA team</strong> to build efficient <strong>email 📬 testing scenarios</strong>! Don't forget to get a look at our <a href="/docs/quick-start">Quick Start</a> page to understand how to use the service.</p>]]></content>
         <author>
-            <name>Julien Bras</name>
-            <uri>https://github.com/julbrs</uri>
+            <name>TestSendr</name>
+            <uri>https://github.com/testsendr</uri>
         </author>
         <category label="testsendr" term="testsendr"/>
     </entry>
