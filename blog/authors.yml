@@ -3,3 +3,8 @@ julbrs:
   # title: Maintainer of Docusaurus
   url: https://github.com/julbrs
   image_url: https://github.com/julbrs.png
+testsendr:
+  name: TestSendr
+  # title: Maintainer of Docusaurus
+  url: https://github.com/testsendr
+  image_url: https://github.com/testsendr.png

@@ -18,7 +18,7 @@ If you need to test that an application is correctly sending an email, you can p
 
 ## Call the API
 
-Then, using your favorite language or automation tool, send a `GET` to the following url: `https://api.testsendr.link/?mail=foo@testsendr.link`
+Then, using your favorite language or automation tool, send a `GET` HTTP request to the following url: `https://api.testsendr.link/?email=foo@testsendr.link`
 
 You will receive a JSON object with the last emails sent to this specific address:
 

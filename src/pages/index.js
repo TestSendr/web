@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Check emails in your tests via an API`}
-      description="Description will go into a meta tag in <head />"
+      description="Test the reception of your emails via the TestSendr API"
     >
       <HomepageHeader />
       <main>

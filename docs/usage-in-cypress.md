@@ -18,7 +18,7 @@ describe('TestSendr', () => {
     const parser = new DOMParser()
     let linkToConfirm = ''
     cy.request(
-      `https://api.testsendr.link/?mail=${email}`
+      `https://api.testsendr.link/?email=${email}`
     ).then(({ body }) => {
       cy.wrap(
         parser.parseFromString(JSON.parse(body)[0].html, 'text/html').getElementsByTagName('a')[0]
