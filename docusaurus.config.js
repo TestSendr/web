@@ -71,11 +71,11 @@ const config = {
           },
           { to: "/pricing", label: "Pricing", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/testsendr/web",
-            label: "GitHub",
-            position: "right",
-          },
+          // {
+          //   href: "https://github.com/testsendr/web",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
@@ -114,10 +114,10 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-              {
-                label: "GitHub",
-                href: "https://github.com/testsendr/web",
-              },
+              // {
+              //   label: "GitHub",
+              //   href: "https://github.com/testsendr/web",
+              // },
             ],
           },
         ],

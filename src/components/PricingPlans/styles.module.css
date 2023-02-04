@@ -1,0 +1,27 @@
+.pricing {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.plan {
+  border: 1px solid #eaeaea;
+  border-radius: 0.5rem;
+  height: 100%;
+}
+
+.price {
+  background-color: var(--ifm-color-primary-light);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.help {
+  font-size: 0.75em;
+  font-style: italic;
+  color: rgb(107, 107, 107);
+}
