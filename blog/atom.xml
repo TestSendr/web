@@ -9,7 +9,7 @@
     <icon>https://testsendr.link/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[First Launch]]></title>
-        <id>first-launch</id>
+        <id>https://testsendr.link/blog/first-launch</id>
         <link href="https://testsendr.link/blog/first-launch"/>
         <updated>2023-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are happy to launch the first version of TestSendr, the tool that will help your QA team to build efficient email 📬 testing scenarios! Don't forget to get a look at our Quick Start page to understand how to use the service.]]></summary>
