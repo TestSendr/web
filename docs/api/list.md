@@ -2,25 +2,27 @@
 sidebar_position: 1
 ---
 
-# Quick Start
+# List emails for a specific address
 
-Let's discover **TestSendr in less than 2 minutes**.
+## How to use
 
-## Send email
+- Method: `GET`
+- Path: `/`
+- Query parameters:
+  - `email`: the email address to list emails for
+- Response:
+  - `200`: an array of emails
+  - `500`: an error occurred
 
-Send an email to any address ending by **@testsendr.link** (for example `foo@testsendr.link`)
+## Example
 
-:::note
+```bash
 
-If you need to test that an application is correctly sending an email, you can provide such email (in a test account for example) and trigger the action that will send an email (maybe register?).
+curl "https://api.testsendr.link/?email=foo@testsendr.link"
 
-:::
+```
 
-## Call the API
-
-Then, using your favorite language or automation tool, send a `GET` HTTP request to the following url: `https://api.testsendr.link/?email=foo@testsendr.link`
-
-You will receive a JSON object with the last emails sent to this specific address:
+Response:
 
 ```json
 [
@@ -43,16 +45,8 @@ You will receive a JSON object with the last emails sent to this specific addres
 ]
 ```
 
+:::note
+
 All emails are deleted after 30mn.
-
-:::note
-
-When you call the API via a script, take note that email delivery can take a few seconds. We recommend to wait at least **15 seconds** before calling the API, via a `sleep` command for example.
-
-:::
-
-:::note
-
-You must understand that the email sent to any address ending by **@testsendr.link** is basically public content available by a public API. Please do not use this service for sensible content.
 
 :::

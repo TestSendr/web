@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Usage in Cypress
 
-**TestSendr** can be easily used in your Cypress tests. Here is a example script:
+**TestSendr** can be easily used in your Cypress tests. Here is an example script:
 
 ```js
 describe('TestSendr', () => {

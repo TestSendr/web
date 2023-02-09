@@ -14,7 +14,7 @@ export default function Pricing() {
             <p class="hero__subtitle">
               The service is currently offered in <strong>beta</strong> for no
               cost. We are working on a <strong>free plan</strong> for small
-              teams, and a <strong>paid plan</strong> for bigger teams (with
+              teams, and a <strong>paid plans</strong> for bigger teams (with
               more features - <i>attachments content</i>... )
             </p>
             <div>

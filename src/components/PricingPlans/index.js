@@ -7,7 +7,7 @@ const PlanList = [
   {
     title: "Basic",
     features: [
-      "Send unlimited emails to @testsendr.link",
+      "Send 1000 emails (per month) to @testsendr.link",
       "Retrieve subject of the email",
       "Retrieve sender of the email",
       "Retrieve date of the email",
@@ -18,7 +18,7 @@ const PlanList = [
   {
     title: "Pro",
     features: [
-      "Send unlimited emails to @testsendr.link",
+      "Send 1000 emails (per month) to @testsendr.link",
       "Retrieve subject of the email",
       "Retrieve sender of the email",
       "Retrieve date of the email",
@@ -27,7 +27,23 @@ const PlanList = [
       "Retrieve attachment list of the email",
       "Retrieve each attachment file of the email",
     ],
-    price: "$USD 20 / month / domain",
+    price: "$USD 10 / month / domain",
+    help: "The subscription is per sender domain. For example, if you send from a single domain, you will need to subscribe to one plan. If you send from multiple domains, you will need to subscribe to a plan for each domain.",
+    cta: "#",
+  },
+  {
+    title: "Enterprise",
+    features: [
+      "Send 10.000 emails (per month) to @testsendr.link",
+      "Retrieve subject of the email",
+      "Retrieve sender of the email",
+      "Retrieve date of the email",
+      "Retrieve text body content of the email",
+      "Retrieve html body content of the email",
+      "Retrieve attachment list of the email",
+      "Retrieve each attachment file of the email",
+    ],
+    price: "$USD 25 / month / domain",
     help: "The subscription is per sender domain. For example, if you send from a single domain, you will need to subscribe to one plan. If you send from multiple domains, you will need to subscribe to a plan for each domain.",
     cta: "#",
   },
@@ -35,7 +51,7 @@ const PlanList = [
 
 function Plan({ title, features, price, cta, help }) {
   return (
-    <div className={clsx("col col--6 padding-horiz--lg padding-top--sm")}>
+    <div className={clsx("col col--4 padding-horiz--lg padding-top--sm")}>
       <div className={clsx("text--center padding-horiz--md", styles.plan)}>
         <h2 className={clsx("padding-top--lg", styles.title)}>{title}</h2>
         <div className="text--left">
