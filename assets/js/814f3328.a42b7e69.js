@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest_docusaurus=self.webpackChunktest_docusaurus||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Some Stats","permalink":"/blog/stats"},{"title":"First Launch","permalink":"/blog/first-launch"}]}')}}]);

@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://testsendr.link/blog</id>
     <title>TestSendr Blog</title>
-    <updated>2023-01-20T00:00:00.000Z</updated>
+    <updated>2023-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://testsendr.link/blog"/>
     <subtitle>TestSendr Blog</subtitle>
     <icon>https://testsendr.link/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Some Stats]]></title>
+        <id>https://testsendr.link/blog/stats</id>
+        <link href="https://testsendr.link/blog/stats"/>
+        <updated>2023-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since the launch of TestSendr, we have been working hard to improve the service and to make it more and more efficient. We have also been working on the documentation to make it more complete and easier to understand. We are happy to share with you some stats about the service.]]></summary>
+        <content type="html"><![CDATA[<p>Since the launch of TestSendr, we have been working hard to improve the service and to make it more and more efficient. We have also been working on the documentation to make it more complete and easier to understand. We are happy to share with you some stats about the service.</p><p><img loading="lazy" src="/assets/images/2023-03-21-12-42-19-d349682474962cb2152b4c2fdf5edfcb.png" width="582" height="292" class="img_ev3q"></p><p>March is not yet done but it's already the biggest month for TestSendr. We are happy to see that the service is growing and that more and more people are using it.</p>]]></content>
+        <author>
+            <name>TestSendr</name>
+            <uri>https://github.com/testsendr</uri>
+        </author>
+        <category label="testsendr" term="testsendr"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First Launch]]></title>
         <id>https://testsendr.link/blog/first-launch</id>

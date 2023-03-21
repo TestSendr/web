@@ -4,10 +4,19 @@
         <title>TestSendr Blog</title>
         <link>https://testsendr.link/blog</link>
         <description>TestSendr Blog</description>
-        <lastBuildDate>Fri, 20 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Some Stats]]></title>
+            <link>https://testsendr.link/blog/stats</link>
+            <guid>https://testsendr.link/blog/stats</guid>
+            <pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Since the launch of TestSendr, we have been working hard to improve the service and to make it more and more efficient. We have also been working on the documentation to make it more complete and easier to understand. We are happy to share with you some stats about the service.]]></description>
+            <content:encoded><![CDATA[<p>Since the launch of TestSendr, we have been working hard to improve the service and to make it more and more efficient. We have also been working on the documentation to make it more complete and easier to understand. We are happy to share with you some stats about the service.</p><p><img loading="lazy" src="/assets/images/2023-03-21-12-42-19-d349682474962cb2152b4c2fdf5edfcb.png" width="582" height="292" class="img_ev3q"></p><p>March is not yet done but it's already the biggest month for TestSendr. We are happy to see that the service is growing and that more and more people are using it.</p>]]></content:encoded>
+            <category>testsendr</category>
+        </item>
         <item>
             <title><![CDATA[First Launch]]></title>
             <link>https://testsendr.link/blog/first-launch</link>

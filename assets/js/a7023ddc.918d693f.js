@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest_docusaurus=self.webpackChunktest_docusaurus||[]).push([[713],{3457:s=>{s.exports=JSON.parse('[{"label":"testsendr","permalink":"/blog/tags/testsendr","count":2}]')}}]);
