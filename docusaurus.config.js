@@ -116,10 +116,10 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-              // {
-              //   label: "GitHub",
-              //   href: "https://github.com/testsendr/web",
-              // },
+              {
+                label: "Support",
+                href: "https://share.hsforms.com/1UcO8jNLYR7O-7yz9gBhh4Aebvko",
+              },
             ],
           },
         ],

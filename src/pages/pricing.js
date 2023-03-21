@@ -20,7 +20,7 @@ export default function Pricing() {
             <div>
               <Link
                 className="button button--secondary button--outline button--lg"
-                to="https://twitter.com/TestSendr"
+                to="https://share.hsforms.com/1UcO8jNLYR7O-7yz9gBhh4Aebvko"
               >
                 Contact us for more details on plans 🙃
               </Link>
