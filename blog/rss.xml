@@ -4,10 +4,19 @@
         <title>TestSendr Blog</title>
         <link>https://testsendr.link/blog</link>
         <description>TestSendr Blog</description>
-        <lastBuildDate>Sat, 18 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[End of the Beta]]></title>
+            <link>https://testsendr.link/blog/end-beta</link>
+            <guid>https://testsendr.link/blog/end-beta</guid>
+            <pubDate>Sat, 25 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Beta is over! 🎉]]></description>
+            <content:encoded><![CDATA[<p>The Beta is over! 🎉</p><p>We are happy to announce that the Beta is over and that TestSendr is now available for everyone. 🎉 You can now subscribe to the Pro plan on the <a href="/pricing">pricing page</a>. It will allow you to send up to 5000 emails per month and work with attachments.</p><p>Take note that you need to provide the domain name of your company to subscribe to the Pro plan. Then all emails where the sender is from this domain will count in your monthly quota.</p><p><img loading="lazy" src="/assets/images/2023-03-25-21-44-38-9e2ced6dd3c01422ae6f1879be8aad3a.png" width="1994" height="650" class="img_ev3q"></p><p>If you want to allow multiple domains, you can subscribe multiple times to the Pro plan.</p>]]></content:encoded>
+            <category>testsendr</category>
+        </item>
         <item>
             <title><![CDATA[Some Stats]]></title>
             <link>https://testsendr.link/blog/stats</link>
