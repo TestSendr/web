@@ -7,7 +7,7 @@ const PlanList = [
   {
     title: "Basic",
     features: [
-      "Send 1000 emails (per month) to @testsendr.link",
+      "Send 500 emails (per month) to @testsendr.link",
       "Retrieve subject of the email",
       "Retrieve sender of the email",
       "Retrieve date of the email",
@@ -18,7 +18,7 @@ const PlanList = [
   {
     title: "Pro",
     features: [
-      "Send 10.000 emails (per month) to @testsendr.link",
+      "Send 5.000 emails (per month) to @testsendr.link",
       "Retrieve subject of the email",
       "Retrieve sender of the email",
       "Retrieve date of the email",
@@ -29,7 +29,7 @@ const PlanList = [
     ],
     price: "$USD 8 / month / domain",
     help: "The subscription is per sender domain. For example, if you send from a single domain, you will need to subscribe to one plan. If you send from multiple domains, you will need to subscribe to a plan for each domain.",
-    cta: "#",
+    cta: "https://buy.stripe.com/7sI9C4dQ09CI2t2144",
   },
 ];
 
@@ -52,7 +52,7 @@ function Plan({ title, features, price, cta, help }) {
             className="button button--secondary button--outline button--lg margin-vert--md"
             to={cta}
           >
-            Subscribe: coming soon!
+            Subscribe!
           </Link>
         )}
         {help && <div className={styles.help}>{help}</div>}

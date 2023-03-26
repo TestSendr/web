@@ -72,6 +72,7 @@ const config = {
             label: "Docs",
           },
           { to: "/pricing", label: "Pricing", position: "left" },
+          { to: "/contact", label: "Contact & FAQ", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           // {
           //   href: "https://github.com/testsendr/web",
@@ -113,12 +114,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "Support",
                 href: "https://share.hsforms.com/1UcO8jNLYR7O-7yz9gBhh4Aebvko",
+              },
+              {
+                label: "Billing",
+                href: "https://billing.stripe.com/p/login/14k9DW7j01wi8IofYY",
               },
             ],
           },
