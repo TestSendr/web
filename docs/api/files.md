@@ -17,6 +17,7 @@ This endpoint is accessible only for paid plans.
   - `key`: the key (`email/id`) to list attachments for
 - Response:
   - `200`: an array of attachments
+  - `400`: the key is not valid or
   - `500`: an error occurred
 
 :::note

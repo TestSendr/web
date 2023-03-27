@@ -12,6 +12,7 @@ sidebar_position: 1
   - `email`: the email address to list emails for
 - Response:
   - `200`: an array of emails
+  - `400`: the email address is not valid
   - `500`: an error occurred
 
 ## Example
@@ -23,6 +24,28 @@ curl "https://api.testsendr.link/?email=foo@testsendr.link"
 ```
 
 Response:
+
+:::info
+
+On `BASIC` plan:
+:::
+
+```json
+[
+  {
+    "key": "foo@testsendr.link/db08khkkv5a8a5fevq90b9tkhhmteqogsm21ea81",
+    "date": "2023-01-22T02:50:27.000Z",
+    "from": "sender@example.com",
+    "subject": "Confirm your email",
+    "text": "Hello\n\nYou can confirm your email on our portal by providing the following code:\n\n123456\n\nThanks!\n\nPS: get a look at the attached invoice.￼"
+  }
+]
+```
+
+:::info
+
+On `PRO` plan:
+:::
 
 ```json
 [
