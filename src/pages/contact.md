@@ -4,9 +4,7 @@ title: Contact and FAQ
 
 # Contact
 
-Drop a message to the TestSendr team.
-
-[Contact form](https://share.hsforms.com/1UcO8jNLYR7O-7yz9gBhh4Aebvko)
+Drop a message to the TestSendr team on support@testsendr.atlassian.net
 
 # FAQ
 

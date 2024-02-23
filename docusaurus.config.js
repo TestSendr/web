@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: "Support",
-                href: "https://share.hsforms.com/1UcO8jNLYR7O-7yz9gBhh4Aebvko",
+                href: "https://testsendr.atlassian.net/servicedesk/customer/portal/1",
               },
               {
                 label: "Billing",
