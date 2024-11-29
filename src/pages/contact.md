@@ -4,7 +4,7 @@ title: Contact and FAQ
 
 # Contact
 
-Drop a message to the TestSendr team on support@testsendr.atlassian.net
+Drop a message to the TestSendr team on testsendr@sidoine.org
 
 # FAQ
 

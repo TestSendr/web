@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: "Support",
-                href: "https://testsendr.atlassian.net/servicedesk/customer/portal/1",
+                href: "mailto:testsendr@sidoine.org",
               },
               {
                 label: "Billing",
