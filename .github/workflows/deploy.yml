@@ -15,16 +15,20 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 18
-          cache: yarn
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install
       - name: Build website
-        run: yarn build
+        run: pnpm build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
